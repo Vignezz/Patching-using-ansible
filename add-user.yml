@@ -1,0 +1,10 @@
+---
+- name : Patch server using ansible playbook
+  hosts : lpce114b8.homedepot.com
+  tasks :
+  - name : Adding a user to {{ ansible_hostname }}
+    user :
+	  name : vikii
+	  state : present
+	  
+	  
