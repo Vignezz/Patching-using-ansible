@@ -4,7 +4,8 @@
   tasks :
   - name : Adding a user to {{ ansible_hostname }}
     user :
-	  name : vikii
-	  state : present
+      name : vikii
+      state : present
+      
 	  
 	  
